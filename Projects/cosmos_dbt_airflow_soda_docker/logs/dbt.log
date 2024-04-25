@@ -1,0 +1,29 @@
+[0m18:30:48.952511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f99333fe860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f993395e650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f99312e4550>]}
+
+
+============================== 18:30:48.955027 | e4d0ffab-54dc-4316-9967-a1c9c45eb572 ==============================
+[0m18:30:48.955027 [info ] [MainThread]: Running with dbt=1.7.4
+[0m18:30:48.956217 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/cesar/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:31:01.522765 [debug] [MainThread]: Starter project path: /home/cesar/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m18:31:01.529216 [info ] [MainThread]: 
+Your new dbt project "custom_postgres" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:31:01.530080 [info ] [MainThread]: Setting up your profile.
+[0m18:31:20.086446 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 31.199387, "process_user_time": 1.858088, "process_kernel_time": 0.06406, "process_mem_max_rss": "95988", "process_in_blocks": "400", "process_out_blocks": "72"}
+[0m18:31:20.087409 [debug] [MainThread]: Command `dbt init` succeeded at 18:31:20.087000 after 31.20 seconds
+[0m18:31:20.087954 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f99333fe860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f99312e4040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f99312e5f30>]}
+[0m18:31:20.088686 [debug] [MainThread]: Flushing usage events
+[0m18:31:20.092201 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.

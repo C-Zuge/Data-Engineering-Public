@@ -1,0 +1,22 @@
+---
+Header:
+  Authorization: 'Bearer <code_here>'
+PrimaryLinks:
+  colaboradores: https://app.feedz.com.br/v2/integracao/employees?
+  departamentos: https://app.feedz.com.br/v2/integracao/departments?
+  unidades: https://app.feedz.com.br/v2/integracao/branches?
+  cargos: https://app.feedz.com.br/v2/integracao/profile-job-descriptions?
+  celebracao: https://app.feedz.com.br/v2/integracao/celebrations
+  enps: https://app.feedz.com.br/v2/integracao/enps
+  humor: https://app.feedz.com.br/v2/integracao/mood?
+  super_pesquisa: https://app.feedz.com.br/v2/integracao/complete-survey
+  pesquisa_rapida: https://app.feedz.com.br/v2/integracao/fast-survey
+  notificacoes_empresa: https://app.feedz.com.br/v2/integracao/notifications
+  # objetivo_v2: https://app.feedz.com.br/v2/integracao/objetivos # --> ToDo
+  objetivo_v3: https://app.feedz.com.br/v3/integracao/objetivos
+SecundaryLinks:
+  # consulta_celebracao: https://app.feedz.com.br/v2/integracao/celebrations/ # --> ToDo
+  # gamificacao: https://app.feedz.com.br/v2/integracao/employees/:id/feedzcoins # --> ToDo
+  resposta_super_pesquisa: https://app.feedz.com.br/v2/integracao/complete-survey/:id/answers # --> ToDo
+  # pesquisa_engajamento: https://app.feedz.com.br/v2/integracao/pulse
+  # notificacoes_colaboradores: https://app.feedz.com.br/v2/integracao/employees/:id/notifications # --> ToDo

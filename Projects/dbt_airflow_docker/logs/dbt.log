@@ -1,0 +1,31 @@
+[0m12:47:59.637143 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0446beca90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0444c5cca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0444c5cc40>]}
+
+
+============================== 12:47:59.640030 | f785f639-2d44-403d-b47f-38362309598e ==============================
+[0m12:47:59.640030 [info ] [MainThread]: Running with dbt=1.7.4
+[0m12:47:59.640820 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/home/cesar/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m12:47:59.641331 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/cesar/.dbt')}
+[0m12:47:59.641817 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m12:48:40.178549 [debug] [MainThread]: Starter project path: /home/cesar/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m12:48:40.180857 [info ] [MainThread]: 
+Your new dbt project "custom_postgres" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:48:40.181305 [info ] [MainThread]: Setting up your profile.
+[0m12:50:17.379652 [info ] [MainThread]: Profile custom_postgres written to /home/cesar/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:50:17.383460 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 137.74818, "process_user_time": 1.960784, "process_kernel_time": 0.070871, "process_mem_max_rss": "99312", "process_in_blocks": "23648", "process_out_blocks": "88"}
+[0m12:50:17.384105 [debug] [MainThread]: Command `dbt init` succeeded at 12:50:17.383919 after 137.75 seconds
+[0m12:50:17.384625 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0446beca90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0449237880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0444c5cca0>]}
+[0m12:50:17.385253 [debug] [MainThread]: Flushing usage events

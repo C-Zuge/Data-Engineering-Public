@@ -1,0 +1,10 @@
+psycopg2
+redis
+pygsheets
+ndg-httpsclient
+pyasn1
+azure-identity 
+azure-storage-blob
+apache-airflow-providers-databricks[common.sql]
+apache-airflow-providers-postgres[amazon]
+apache-airflow[async,crypto,celery,ftp,postgres,ssh,google,google_auth,http,microsoft.azure,ldap,odbc,pandas,sendgrid,sftp,slack,statsd,virtualenv]==2.4.3
